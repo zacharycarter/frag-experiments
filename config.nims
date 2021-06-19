@@ -1,2 +1,7 @@
-when defined(windows):
-  switch("cc", "vcc")
+--gc:arc
+--threads:on
+--tlsEmulation:off
+--define:host
+--debugger:native
+--define:useMalloc
+--cc:vcc

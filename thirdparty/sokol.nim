@@ -1,3 +1,6 @@
+when defined(windows):
+  {.passL: "-lkernel32 -luser32 -lshell32 -ldxgi -ldxguid -ld3d11 -lole32".}
+
 {.compile: "./sokol.c".}
 
 # sokol_app.h

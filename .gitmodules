@@ -7,3 +7,6 @@
 [submodule "thirdparty/cgltf"]
 	path = thirdparty/cgltf
 	url = https://github.com/jkuhlmann/cgltf.git
+[submodule "thirdparty/cr"]
+	path = thirdparty/cr
+	url = git@github.com:fungos/cr.git
